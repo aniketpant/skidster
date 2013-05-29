@@ -1,0 +1,12 @@
+.text-input {
+  width: 100%;
+  border: 2px solid darken($white, 25%);
+  padding: 2px 5px;
+  transition: border-color 250ms linear;
+  &:focus {
+    border: 2px solid $color3;
+  }
+  &[disabled="true"] {
+    border: 2px solid $color6;
+  }
+}

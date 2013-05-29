@@ -1,0 +1,11 @@
+.notice {
+  color: $white;
+  background: $gray;
+  padding: 2px 5px;
+  &.error {
+    background: $color6;
+  }
+  &.message {
+    background: $color5;
+  }
+}

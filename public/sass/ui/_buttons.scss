@@ -1,0 +1,22 @@
+.btn {
+  color: $white;
+  background: $color4;
+  &:hover {
+    background: $color3;
+  }
+  &:active {
+    background: $color6;
+  }
+  &.btn--delete {
+    background: $color6;
+    &:hover {
+      background: darken($color6, 10%);
+    }
+  }
+}
+
+a.btn {
+  &:hover {
+    color: $white;
+  }
+}

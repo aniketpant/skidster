@@ -1,0 +1,25 @@
+/**
+ * Variables
+ */
+
+$content-bold:      'Ubuntu', Helvetica, Arial, sans-serif;
+$content:           'Ubuntu Light', Helvetica, Arial, sans-serif;
+
+$white:             #fefefe;
+$gray:              #333;
+$color1:            #B63D5B;
+$color2:            #B6A03D; // brown
+$color3:            #3DB698; // green
+$color4:            #58D5B6; // blue
+$color5:            #3D53B6; // purple
+$color6:            lighten($color1, 20%); // pale red
+
+$brand-color:       $color4;
+$brand-face:        'Ubuntu', Helvetica, Arial, sans-serif;
+
+// Overrides
+
+$use-grids:         true;
+$use-nav:           true;
+$use-island:        true;
+$use-beautons:      true;

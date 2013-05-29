@@ -1,0 +1,14 @@
+.navbar {
+  a {
+    color: $gray;
+    &.brand {
+      &:hover {
+        background: none;
+      }
+    }
+    &:hover, &.active {
+      color: $white;
+      background: $color4;
+    }
+  }
+}

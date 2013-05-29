@@ -1,0 +1,48 @@
+// Colors and overrides
+@import 'vars';
+
+// inuit.css core
+@import '../../components/inuit.css/inuit';
+
+// Elements
+@import 'elements/links';
+@import 'elements/navbar';
+
+// User Interface
+@import 'ui/forms';
+@import 'ui/buttons';
+@import 'ui/errors';
+
+// Miscellaneous
+@import 'misc/selection';
+
+body {
+  color: $gray;
+  background: $white;
+  font-family: $content;
+}
+
+section[role="main"] {
+  padding-bottom: 1rem;
+}
+
+.wrapper {
+  width: 45rem;
+  padding-left: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.brand {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+strong {
+  font-family: $content-bold;
+}
+
+.highlight {
+  background: darken($white, 10%);
+}
