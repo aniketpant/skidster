@@ -16,8 +16,8 @@ class CreateUsers extends Migration {
       $table->increments('id');
       $table->string('email', '80');
       $table->string('password', '60');
-      $table->text('first_name');
-      $table->text('last_name');
+      $table->text('first_name')->nullable();
+      $table->text('last_name')->nullable();
       $table->timestamps();
     });
   }
