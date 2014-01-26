@@ -11,15 +11,14 @@ class CreateUsers extends Migration {
    */
   public function up()
   {
-    Schema::create('users', function($t)
+    Schema::create('users', function($table)
     {
-      $t->increments('id');
-      $t->string('email', '80');
-      $t->string('password', '60');
-      $t->text('first_name');
-      $t->text('last_name');
-      $t->timestamps();
-      $t->timestamp('deleted_at');
+      $table->increments('id');
+      $table->string('email', '80');
+      $table->string('password', '60');
+      $table->text('first_name');
+      $table->text('last_name');
+      $table->timestamps();
     });
   }
 
