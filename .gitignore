@@ -3,5 +3,5 @@
 composer.phar
 composer.lock
 .DS_Store
-public/.sass_cache
+.sass-cache
 bower_components
